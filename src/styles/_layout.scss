@@ -1,0 +1,13 @@
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.layout {
+  padding: 0 25px 0 25px;
+
+  @include breakpoint(desktop) {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 0;
+  }
+}
