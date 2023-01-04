@@ -1,7 +1,5 @@
 .card {
   padding-top: 82px;
-  background: url(./assets/bg-pattern-top-mobile.svg) top left no-repeat,
-    url(./assets/bg-pattern-bottom-mobile.svg) bottom right no-repeat;
 
   @include breakpoint(desktop) {
     padding-top: 118px;
@@ -31,10 +29,6 @@
 
 .text-block-wrap {
   margin-bottom: 20px;
-
-  @include breakpoint(desktop) {
-    margin-bottom: 71px;
-  }
 }
 
 .card__text {
@@ -58,7 +52,7 @@
   margin-bottom: 47px;
 
   @include breakpoint(desktop) {
-    margin-bottom: 27px;
+    margin-bottom: 0;
     padding-top: 27px;
     display: flex;
     flex-direction: column;
@@ -109,6 +103,7 @@
   display: inline-block;
   vertical-align: middle;
   margin: 0 4px 0 4px;
+
   img {
     width: 17px;
     height: 16px;
