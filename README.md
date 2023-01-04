@@ -1,15 +1,13 @@
-# 🚀 Welcome to your new awesome project!
+x
+### Links
 
-This project has been created using **webpack-cli**, you can now run
+- Live Site: [Demo]()
 
-```
-npm run build
-```
+### Built with
 
-or
+- Semantic HTML5 markup
+- SCSS properties
+- Flexbox
+- Mobile-first workflow
 
-```
-yarn build
-```
-
-to bundle your application
+ 
